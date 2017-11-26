@@ -4,15 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm a ukulele enthusiast who enjoys finding, and creating, arrangements for pop songs and top 40 songs on the ukulele. When I first started learning, I wanted to play the songs I heard on the radio. But it was hard to find ukulele tabs for fresh pop songs, so I started building my own collection, or writing my own arrangements.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Over the years, I've met more and more people also interested in playing pop on ukulele, so I'm slowly digitizing my collection and sharing them here. I'm always finding new stuff and keeping an ear out for new tunes on the radio!
