@@ -11,12 +11,6 @@ $brand-color:      #b22222 !default;
 
 @import "minima";
 
-/*
-body {
-  background-color: pink;
-}
-*/
-
 /**
  * Links
  */
@@ -36,6 +30,9 @@ a {
 h2 {
   margin-bottom: 0px; }
 
+/**
+ * Posts
+ */
 .post-link {
   display: inline;
   @include relative-font-size(1.1);
@@ -58,10 +55,23 @@ h2 {
   @include relative-font-size(1.5);
 }
 
+/**
+ * Site
+ */
+.site-header {
+  background-color: $brand-color;
+}
+
 .site-nav .page-link {
   letter-spacing: 1.5px;
+  color: $background-color;
 }
 
 .site-title {
   letter-spacing: 1.5px;
+
+  &,
+  &:visited {
+    color: $background-color;
+  }
 }
