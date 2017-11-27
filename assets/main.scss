@@ -5,9 +5,7 @@
 $base-font-family: "Montserrat", Helvetica, Arial, sans-serif !default;
 
 $text-color:       #494949 !default;
-// $background-color: #fdfdfd !default;
 $background-color: #ffffff !default;
-// $brand-color:      #2a7ae2 !default;
 $brand-color:      #1e90ff !default;
 // $brand-color:      #b22222 !default;
 
@@ -35,9 +33,29 @@ a {
     .social-media-list a:hover .username {
       text-decoration: none; }
 
-.site-title {
-  letter-spacing: 1.5px;
+
+h2 {
+  margin-bottom: 0px; }
+
+
+.post-link {
+  display: inline;
+  @include relative-font-size(1.1);
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+//    margin-bottom: $spacing-unit;
+    margin-bottom: 0px;
+  }
 }
 
 .site-nav .page-link {
     letter-spacing: 1.5px; }
+
+.site-title {
+  letter-spacing: 1.5px;
+}
