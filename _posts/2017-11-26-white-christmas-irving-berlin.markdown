@@ -1,7 +1,7 @@
 ---
 layout: post
-song:   "TEMPLATE"
-artist: "TEMPLATE"
+song:   "White Christmas"
+artist: "Irving Berlin"
 link:
 date:   2017-11-26
 categories:

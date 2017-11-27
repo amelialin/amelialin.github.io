@@ -50,6 +50,10 @@ h2 {
   }
 }
 
+.post-tab {
+  margin-bottom: $spacing-unit;
+}
+
 .post-title {
   @include relative-font-size(1.5);
 }

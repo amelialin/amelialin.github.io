@@ -4,7 +4,7 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+    <h1 class="post-title" itemprop="name headline">{{ page.song | escape }} - {{ page.artist | escape }}</h1>
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
@@ -16,6 +16,15 @@ layout: default
   </header>
 
   <div class="post-content" itemprop="articleBody">
+    <div class="post-tab">
+      {% if page.link %}
+        <a href="{{ page.link }}" target="_blank">View Tab for {{ page.song }} - {{ page.artist }}</a><br>
+        <span class="post-meta">{{ page.link }}</span>
+      {% else %}
+        <a href="/files/{{ page.song | replace:' ','_' }}__{{ page.artist | replace:' ','_' }}.pdf" target="_blank">View Tab for {{ page.song }} - {{ page.artist }}</a><br><br>
+        <embed src="/files/{{ page.song | replace:' ','_' }}__{{ page.artist | replace:' ','_' }}.pdf" type="application/pdf" width="100%" height="1000px" />
+      {% endif %}
+    </div>
     {{ content }}
   </div>
 
