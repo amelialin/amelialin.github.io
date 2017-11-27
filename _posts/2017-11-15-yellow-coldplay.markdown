@@ -1,7 +1,7 @@
 ---
 layout: post
-song:   "SONG"
-artist: "ARTIST"
+song:   "Yellow"
+artist: "Coldplay"
 link:
 categories:
 ---
