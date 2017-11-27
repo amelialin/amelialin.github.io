@@ -13,20 +13,32 @@ Some of my favorite ukulele resources:
 <ul>
   <li>
     <a href="https://meetup.com/SF-Peninsula-Ukulele-Group" target="_blank">
-    Peninsula Ukulele Group (PUGs)
+    Peninsula Ukulele Group
     </a> -
-    My awesome Meetup group in San Carlos, CA.
+    My awesome Meetup group in San Carlos, CA. Go PUGs!
   </li>
   <li>
     <a href="https://ukutabs.com" target="_blank">
     UkuTabs
     </a> -
-    Hands down my favorite site for pop song tabs on the ukulele.
+    My go-to site for pop songs on the ukulele.
   </li>
   <li>
     <a href="https://www.ultimate-guitar.com" target="_blank">
     Ultimate Guitar
     </a> -
-    When I can't find a tab on ukulele, I never fail to find at least one for guitar here.
+    If I can't find a ukulele tab, I go here for a guitar tab and play it on uke!
+  </li>
+  <li>
+    <a href="https://www.youtube.com/channel/UCDglnz22aXMzpug5HbD1bCA" target="_blank">
+    Ukulele Underground
+    </a> -
+    It's amazing how much is on YouTube. My favorite uke channel.
+  </li>
+  <li>
+    <a href="http://www.ukulelesource.com" target="_blank">
+    Ukulele Source
+    </a> -
+    Favorite ukulele store, they're in San Jose. They have the best selection!
   </li>
 <ul>

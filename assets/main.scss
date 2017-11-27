@@ -30,6 +30,11 @@ a {
 h2 {
   margin-bottom: 0px; }
 
+.page-introduction {
+  color: $grey-color;
+  @include relative-font-size(1.1);
+}
+
 /**
  * Posts
  */
@@ -66,10 +71,14 @@ h2 {
 .site-nav .page-link {
   letter-spacing: 1.5px;
   color: $background-color;
+  @include media-query($on-palm) {
+      color: $text-color;
+  }
 }
 
 .site-title {
   letter-spacing: 1.5px;
+  padding-right: $spacing-unit * 2;
 
   &,
   &:visited {
