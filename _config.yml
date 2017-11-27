@@ -18,7 +18,6 @@ author: Amelia Lin
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
    Ukulele tabs for pop and top 40 songs, from the 90s to what's on the radio today.
-   I love playing pop songs on ukulele and this is my personal collection.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
