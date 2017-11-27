@@ -2,12 +2,12 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-$base-font-family: "Montserrat", Helvetica, Arial, sans-serif !default;
+$base-font-family: "Montserrat", Monospace, Helvetica, Arial, sans-serif !default;
 
 $text-color:       #494949 !default;
 $background-color: #ffffff !default;
-$brand-color:      #1e90ff !default;
-// $brand-color:      #b22222 !default;
+// $brand-color:      #1e90ff !default;
+$brand-color:      #b22222 !default;
 
 @import "minima";
 
@@ -26,17 +26,15 @@ a {
   a:visited {
     color: $brand-color; }
   a:hover {
-    color: darken($brand-color, 15%);
+    color: lighten($brand-color, 15%);
     text-decoration: none; }
   .social-media-list a:hover {
     text-decoration: none; }
     .social-media-list a:hover .username {
       text-decoration: none; }
 
-
 h2 {
   margin-bottom: 0px; }
-
 
 .post-link {
   display: inline;
@@ -48,13 +46,17 @@ h2 {
   list-style: none;
 
   > li {
-//    margin-bottom: $spacing-unit;
     margin-bottom: 0px;
   }
 }
 
+.post-title {
+  @include relative-font-size(1.5);
+}
+
 .site-nav .page-link {
-    letter-spacing: 1.5px; }
+  letter-spacing: 1.5px;
+}
 
 .site-title {
   letter-spacing: 1.5px;
