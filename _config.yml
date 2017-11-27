@@ -25,7 +25,7 @@ github_username:  amelialin
 
 # Build settings
 markdown: kramdown
-# theme: ameliastheme
+theme: minima
 plugins:
   - jekyll-feed
 
