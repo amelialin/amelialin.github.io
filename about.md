@@ -27,7 +27,7 @@ Some of my favorite ukulele resources:
     <a href="https://www.ultimate-guitar.com" target="_blank">
     Ultimate Guitar
     </a> -
-    If I can't find a ukulele tab, I go here for a guitar tab and play it on uke!
+    If I can't find a ukulele tab, I go here for a guitar tab and play it on uke.
   </li>
   <li>
     <a href="https://www.youtube.com/channel/UCDglnz22aXMzpug5HbD1bCA" target="_blank">
@@ -39,6 +39,6 @@ Some of my favorite ukulele resources:
     <a href="http://www.ukulelesource.com" target="_blank">
     Ukulele Source
     </a> -
-    Favorite ukulele store, they're in San Jose. They have the best selection!
+    Favorite ukulele store, they're in San Jose, CA.
   </li>
 <ul>
