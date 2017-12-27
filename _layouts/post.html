@@ -22,8 +22,7 @@ layout: default
         <span class="post-meta">{{ page.link }}</span>
       {% else %}
         <a href="/files/{{ page.song | replace:' ','_' }}__{{ page.artist | replace:' ','_' }}.pdf" target="_blank">View Tab for {{ page.song }} - {{ page.artist }}</a><br><br>
-<!--         <embed src="/files/{{ page.song | replace:' ','_' }}__{{ page.artist | replace:' ','_' }}.pdf" type="application/pdf" width="100%" height="1010px" /> -->
-        <object data="/files/{{ page.song | replace:' ','_' }}__{{ page.artist | replace:' ','_' }}.pdf" type="application/pdf" width="100%" height="1010px" >
+        <object data="/files/{{ page.song | replace:' ','_' }}__{{ page.artist | replace:' ','_' }}.pdf" type="application/pdf" width="100%" height="1010px">
           <embed src="/files/{{ page.song | replace:' ','_' }}__{{ page.artist | replace:' ','_' }}.pdf" type="application/pdf" width="100%" height="1010px" />
         </object>
       {% endif %}
