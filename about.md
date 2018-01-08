@@ -41,4 +41,16 @@ Some of my favorite ukulele resources:
     </a> -
     Favorite ukulele store, they're in San Jose, CA.
   </li>
+  <li>
+    <a href="http://panoapps.net" target="_blank">
+    PanoTuner
+    </a> -
+    Free, simple tuner mobile app. Great on the go.
+  </li>
+    <li>
+    <a href="http://wp.tekartik.com/pages/mobile" target="_blank">
+    Basichords
+    </a> -
+    Free mobile app for looking up chord fingerings and alternate fingerings.
+  </li>
 <ul>
